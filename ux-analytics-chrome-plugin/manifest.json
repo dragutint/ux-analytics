@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "UX Analytics Client",
+  "version": "1.0",
+  "description": "UX Analytics Client",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "scripts/request-action-listener.js",
+        "scripts/mouse-event-listeners.js",
+        "scripts/keyboard-event-listeners.js",
+        "scripts/server-client.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/ux-ui-16.png",
+    "32": "images/ux-ui-32.png",
+    "48": "images/ux-ui-48.png",
+    "128": "images/ux-ui-128.png"
+  },
+  "action": {
+    "default_title": "UX Analytics Client",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ]
+}

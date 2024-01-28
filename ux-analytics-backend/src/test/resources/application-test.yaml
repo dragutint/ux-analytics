@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      database: ux-analytics
+      port: ${mongodb.container.port}
+      uri: mongodb://root:example@localhost:27017/?authMechanism=SCRAM-SHA-256
+      host: localhost
+      auto-index-creation: true

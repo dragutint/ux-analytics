@@ -1,0 +1,17 @@
+body {
+    width: 300px;
+    height: 400px;
+    overflow: scroll;
+    background-color: #333;
+    color: #DDD;
+    padding: 10px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 14px;
+}
