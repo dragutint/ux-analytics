@@ -10,6 +10,6 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @SuperBuilder
 public class ScrollActionDto extends ActionDto {
-    private Long x;
-    private Long y;
+    private Long deltaX;
+    private Long deltaY;
 }

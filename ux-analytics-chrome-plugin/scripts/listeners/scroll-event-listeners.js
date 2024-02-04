@@ -62,8 +62,8 @@ class ScrollService {
     static appendEventToList(deltaY, deltaX) {
 
         this.events.push({
-            "x": deltaX,
-            "y": deltaY,
+            "deltaX": deltaX,
+            "deltaY": deltaY,
             "timestamp": new Date().toISOString()
         });
     }
