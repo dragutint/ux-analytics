@@ -41,4 +41,12 @@ public class UserJourneyApi {
         return ResponseEntity.ok().build();
     }
 
+    @PostMapping("/user-journeys/{email}/quantify")
+    public ResponseEntity<Void> quantify(@PathVariable String email) {
+
+        userJourneyService.quantify(email);
+
+        return ResponseEntity.ok().build();
+    }
+
 }

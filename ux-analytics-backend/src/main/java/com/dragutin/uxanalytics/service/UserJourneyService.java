@@ -1,11 +1,14 @@
 package com.dragutin.uxanalytics.service;
 
+import com.dragutin.uxanalytics.dto.actions.ActionDto;
+import com.dragutin.uxanalytics.dto.features.FeatureDto;
 import com.dragutin.uxanalytics.dto.requests.CreateUserJourneyRequest;
 import com.dragutin.uxanalytics.dto.requests.UserJourneyEventsRequest;
 import com.dragutin.uxanalytics.dto.responses.CreateUserJourneyResponse;
 import com.dragutin.uxanalytics.entity.UserJourneyEntity;
 import com.dragutin.uxanalytics.entity.UserJourneyStatus;
 import com.dragutin.uxanalytics.repository.UserJourneyEntityRepository;
+import com.dragutin.uxanalytics.service.features.FeatureExtractor;
 import com.dragutin.uxanalytics.service.mapper.UserJourneyServiceMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -13,6 +16,9 @@ import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 @Slf4j
 @Service
@@ -21,6 +27,7 @@ public class UserJourneyService {
 
     private final UserJourneyServiceMapper mapper;
     private final UserJourneyEntityRepository repository;
+    private final UXQuantificationService uxQuantificationService;
 
     public CreateUserJourneyResponse createUserJourney(CreateUserJourneyRequest userJourneyDto) {
 
@@ -69,6 +76,18 @@ public class UserJourneyService {
 
         repository.save(entity);
 
+        CompletableFuture.runAsync(() -> uxQuantificationService.quantify(email));
+
         log.info("User journey terminated for user: {}", email);
+    }
+
+    public void quantify(String email) {
+
+        log.info("Quantifying user journey for user: {}", email);
+
+        uxQuantificationService.quantify(email);
+
+        log.info("User journey quantified for user: {}", email);
+
     }
 }

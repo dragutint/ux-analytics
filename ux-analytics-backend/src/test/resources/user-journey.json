@@ -1,0 +1,3777 @@
+{
+  "email": "dragutin@gmail.com",
+  "status": "COMPLETED",
+  "screenInfo": {
+    "pageLengthInPixels": 2335,
+    "pageWidthInPixels": 1800
+  },
+  "mouseActions": [
+    {
+      "action": "mouseover",
+      "x": 1288,
+      "y": 253,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.761Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1288,
+      "y": 253,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.761Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1287,
+      "y": 253,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.769Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1287,
+      "y": 253,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.779Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1286,
+      "y": 254,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.787Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1285,
+      "y": 254,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.795Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1285,
+      "y": 254,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.803Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1284,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.811Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1284,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.820Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1283,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.828Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1283,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.849Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1283,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.861Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1282,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.878Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1282,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.886Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1282,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.896Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1281,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.903Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1280,
+      "y": 255,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.912Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1279,
+      "y": 256,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.933Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1278,
+      "y": 256,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.944Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1278,
+      "y": 256,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.953Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1278,
+      "y": 256,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.961Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1278,
+      "y": 256,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.970Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1277,
+      "y": 256,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:07.990Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1277,
+      "y": 256,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.458Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1275,
+      "y": 257,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.471Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1272,
+      "y": 261,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.479Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1268,
+      "y": 267,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.496Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1268,
+      "y": 268,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.509Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1267,
+      "y": 271,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.511Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1265,
+      "y": 273,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.520Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1264,
+      "y": 275,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.528Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1263,
+      "y": 277,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.537Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1261,
+      "y": 281,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.544Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1259,
+      "y": 283,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.554Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1258,
+      "y": 285,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.561Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1256,
+      "y": 287,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.569Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1255,
+      "y": 290,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.577Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1253,
+      "y": 293,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.587Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1251,
+      "y": 296,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.595Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1250,
+      "y": 299,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.603Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1247,
+      "y": 307,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.620Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1246,
+      "y": 311,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.628Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1245,
+      "y": 316,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.636Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1244,
+      "y": 320,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.645Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1243,
+      "y": 325,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.653Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1242,
+      "y": 329,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.665Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1241,
+      "y": 332,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.670Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1241,
+      "y": 335,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.679Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1240,
+      "y": 339,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.685Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1240,
+      "y": 342,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.695Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1240,
+      "y": 345,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.703Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1239,
+      "y": 350,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.712Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1238,
+      "y": 353,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:08.729Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1238,
+      "y": 552,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.520Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 1189,
+      "y": 552,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.528Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 1189,
+      "y": 552,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.528Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1189,
+      "y": 552,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.528Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1157,
+      "y": 552,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.536Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1103,
+      "y": 552,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.553Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1067,
+      "y": 553,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.563Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 1052,
+      "y": 555,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.569Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 1052,
+      "y": 555,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.569Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1052,
+      "y": 555,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.569Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 989,
+      "y": 567,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.586Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 989,
+      "y": 567,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.587Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 989,
+      "y": 567,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.587Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 943,
+      "y": 580,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.603Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 907,
+      "y": 592,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.619Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 907,
+      "y": 592,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.619Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 907,
+      "y": 592,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.619Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 893,
+      "y": 597,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.627Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 893,
+      "y": 597,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.627Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 893,
+      "y": 597,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.627Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 887,
+      "y": 599,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.636Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 876,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.644Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 876,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.645Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 876,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.645Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 867,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.652Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 858,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.661Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 851,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.669Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 846,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.678Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 848,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.834Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 849,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.845Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 849,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.854Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 849,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.862Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 849,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.879Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 846,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.886Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 842,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.895Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 839,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.903Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 831,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.911Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 823,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.920Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 818,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.929Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 811,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.937Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 803,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.947Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 803,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.947Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 803,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.947Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 789,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.955Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 789,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.955Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 789,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.955Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 778,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.972Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 772,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.978Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 761,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:10.995Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 756,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.008Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 753,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.011Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 750,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.020Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 744,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.037Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 742,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.046Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 741,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.053Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 740,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.062Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 739,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.069Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 738,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.077Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 738,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.087Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 737,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.094Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 737,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.094Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 737,
+      "y": 601,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.094Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 736,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.104Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 736,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.113Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 735,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.123Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 735,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.130Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 734,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.138Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 734,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.149Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 733,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.153Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 733,
+      "y": 602,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.165Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 732,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.171Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 732,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.179Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 732,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.188Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 732,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.189Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 732,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.189Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 731,
+      "y": 603,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.195Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 731,
+      "y": 604,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.203Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 730,
+      "y": 605,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.211Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 730,
+      "y": 606,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.220Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 730,
+      "y": 606,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.228Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 729,
+      "y": 607,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.236Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 729,
+      "y": 607,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.244Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 729,
+      "y": 608,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.253Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 729,
+      "y": 608,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.261Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 729,
+      "y": 609,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.269Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 729,
+      "y": 609,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.278Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 728,
+      "y": 609,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.287Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 728,
+      "y": 610,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.295Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 728,
+      "y": 611,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.303Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 728,
+      "y": 611,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.313Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 728,
+      "y": 612,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.319Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 728,
+      "y": 613,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.329Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 727,
+      "y": 613,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.336Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 727,
+      "y": 613,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.345Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 727,
+      "y": 614,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.353Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 727,
+      "y": 614,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.361Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 727,
+      "y": 614,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.369Z"
+    },
+    {
+      "action": "click",
+      "x": 0,
+      "y": 199,
+      "overElementId": "i8",
+      "overElementClass": "Od2TWd hYsg7c i9xfbb",
+      "timestamp": "2024-02-04T16:28:11.488Z"
+    },
+    {
+      "action": "click",
+      "x": 727,
+      "y": 614,
+      "overElementId": "i8",
+      "overElementClass": "Od2TWd hYsg7c i9xfbb",
+      "timestamp": "2024-02-04T16:28:11.496Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 727,
+      "y": 615,
+      "overElementId": "i8",
+      "overElementClass": "Od2TWd hYsg7c i9xfbb",
+      "timestamp": "2024-02-04T16:28:11.762Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 727,
+      "y": 618,
+      "overElementId": "i8",
+      "overElementClass": "Od2TWd hYsg7c i9xfbb",
+      "timestamp": "2024-02-04T16:28:11.770Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 727,
+      "y": 622,
+      "overElementId": "i8",
+      "overElementClass": "Od2TWd hYsg7c i9xfbb",
+      "timestamp": "2024-02-04T16:28:11.778Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 725,
+      "y": 631,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.790Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 725,
+      "y": 631,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.790Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 725,
+      "y": 631,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.791Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 725,
+      "y": 636,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.798Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 725,
+      "y": 636,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.798Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 725,
+      "y": 636,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.798Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 724,
+      "y": 642,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.811Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 723,
+      "y": 648,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.820Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 722,
+      "y": 653,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.828Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 721,
+      "y": 659,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.836Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 720,
+      "y": 666,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.845Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 719,
+      "y": 679,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.853Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 719,
+      "y": 679,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.853Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 719,
+      "y": 679,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.854Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 717,
+      "y": 692,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.870Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 716,
+      "y": 698,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.878Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 716,
+      "y": 698,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.878Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 716,
+      "y": 698,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.878Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 716,
+      "y": 704,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.886Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 716,
+      "y": 709,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.895Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 716,
+      "y": 709,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.895Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 716,
+      "y": 709,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.895Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 715,
+      "y": 713,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.903Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 715,
+      "y": 718,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.911Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 715,
+      "y": 720,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.919Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 714,
+      "y": 726,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.928Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 714,
+      "y": 727,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.936Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 714,
+      "y": 732,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.944Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 714,
+      "y": 732,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.945Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 714,
+      "y": 732,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.945Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 714,
+      "y": 734,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.953Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 713,
+      "y": 737,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.961Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 713,
+      "y": 741,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.969Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 713,
+      "y": 743,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.978Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 713,
+      "y": 745,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.986Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 712,
+      "y": 748,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:11.994Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 712,
+      "y": 750,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.003Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 711,
+      "y": 752,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.011Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 711,
+      "y": 754,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.020Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 710,
+      "y": 757,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.028Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 710,
+      "y": 757,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.029Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 710,
+      "y": 757,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.029Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 710,
+      "y": 760,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.035Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 710,
+      "y": 760,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.036Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 710,
+      "y": 760,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.036Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 709,
+      "y": 761,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.045Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 709,
+      "y": 763,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.053Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 709,
+      "y": 766,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.064Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 708,
+      "y": 768,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.071Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 708,
+      "y": 771,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.079Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 708,
+      "y": 773,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.088Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 708,
+      "y": 777,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.096Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 708,
+      "y": 779,
+      "overElementId": "i12",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:12.104Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 707,
+      "y": 780,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.111Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 707,
+      "y": 780,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.111Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 707,
+      "y": 780,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.112Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 707,
+      "y": 781,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.120Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 707,
+      "y": 784,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.137Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 786,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.153Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 789,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.171Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 791,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.188Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 792,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.195Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 794,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.203Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 795,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.211Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 706,
+      "y": 796,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.221Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 706,
+      "y": 796,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.222Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 796,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.222Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 797,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.228Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 799,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.238Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 800,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.244Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 706,
+      "y": 801,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.253Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 802,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.264Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 803,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.270Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 805,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.279Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 806,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.287Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 808,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.297Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 705,
+      "y": 810,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.312Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 705,
+      "y": 810,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.312Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 810,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.312Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 810,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.320Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 811,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.328Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 811,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.336Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 812,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.345Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 812,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.352Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 812,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.371Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 812,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.390Z"
+    },
+    {
+      "action": "click",
+      "x": 705,
+      "y": 812,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:12.532Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 705,
+      "y": 850,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:13.447Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 705,
+      "y": 850,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:13.448Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 705,
+      "y": 1082,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.129Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 705,
+      "y": 1082,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.130Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 1083,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.203Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 1086,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.214Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 705,
+      "y": 1090,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.220Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 705,
+      "y": 1090,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.221Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 705,
+      "y": 1090,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.221Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 704,
+      "y": 1095,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.228Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 703,
+      "y": 1100,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.236Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 701,
+      "y": 1106,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.245Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 699,
+      "y": 1116,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.253Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 699,
+      "y": 1116,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.253Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 699,
+      "y": 1116,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.253Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 696,
+      "y": 1127,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.261Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 696,
+      "y": 1127,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.261Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 696,
+      "y": 1127,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.261Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 694,
+      "y": 1133,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.272Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 689,
+      "y": 1152,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.280Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 689,
+      "y": 1152,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.280Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 689,
+      "y": 1152,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.280Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 686,
+      "y": 1167,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.295Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 684,
+      "y": 1172,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.303Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 683,
+      "y": 1179,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.320Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 683,
+      "y": 1179,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.320Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 683,
+      "y": 1179,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.320Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 682,
+      "y": 1183,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.328Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 682,
+      "y": 1183,
+      "overElementId": "i33",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:17.328Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 682,
+      "y": 1183,
+      "overElementId": "i33",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:17.328Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 682,
+      "y": 1186,
+      "overElementId": "i33",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:17.336Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 682,
+      "y": 1188,
+      "overElementId": "i33",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:17.344Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1190,
+      "overElementId": "i33",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:17.353Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1195,
+      "overElementId": "i33",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:17.361Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1197,
+      "overElementId": "i33",
+      "overElementClass": "gubaDc OIC90c RjsPE",
+      "timestamp": "2024-02-04T16:28:17.369Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 681,
+      "y": 1200,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.378Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 681,
+      "y": 1200,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.378Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1200,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.378Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1203,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.386Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1206,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.394Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1208,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.403Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1210,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.414Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1213,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.421Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 680,
+      "y": 1215,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.429Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 680,
+      "y": 1218,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.440Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 680,
+      "y": 1218,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.440Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 680,
+      "y": 1218,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.440Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 680,
+      "y": 1219,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.445Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 680,
+      "y": 1220,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.453Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 680,
+      "y": 1221,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.463Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1222,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.471Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1223,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.479Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1224,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.486Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1226,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.495Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1227,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.502Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1228,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.511Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 679,
+      "y": 1231,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.520Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 679,
+      "y": 1231,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.520Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1231,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.520Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1232,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.528Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1236,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.553Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1239,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.570Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1241,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.586Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1244,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.603Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1246,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.619Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1247,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.628Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1247,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.636Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1248,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.645Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1248,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.653Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1249,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.661Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1249,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.705Z"
+    },
+    {
+      "action": "click",
+      "x": 679,
+      "y": 1249,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.756Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1249,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:17.760Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 679,
+      "y": 1531,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:18.572Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 679,
+      "y": 1531,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:18.572Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1525,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.111Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 679,
+      "y": 1516,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.120Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 679,
+      "y": 1516,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.121Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 679,
+      "y": 1516,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.121Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 681,
+      "y": 1505,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.128Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 684,
+      "y": 1494,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.138Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 684,
+      "y": 1494,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.139Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 684,
+      "y": 1494,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.139Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 687,
+      "y": 1482,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.144Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 687,
+      "y": 1482,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.144Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 687,
+      "y": 1482,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.144Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 691,
+      "y": 1470,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.152Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 695,
+      "y": 1459,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.164Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 695,
+      "y": 1459,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.164Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 695,
+      "y": 1459,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.165Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 699,
+      "y": 1448,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.169Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 699,
+      "y": 1448,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.170Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 699,
+      "y": 1448,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.170Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 703,
+      "y": 1439,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.178Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 710,
+      "y": 1421,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.186Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 710,
+      "y": 1421,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.186Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 710,
+      "y": 1421,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.186Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 712,
+      "y": 1415,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.194Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 717,
+      "y": 1402,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.203Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 717,
+      "y": 1402,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.203Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 717,
+      "y": 1402,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.203Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 722,
+      "y": 1392,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.214Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 724,
+      "y": 1387,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.221Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 725,
+      "y": 1382,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.228Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 725,
+      "y": 1382,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.228Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 725,
+      "y": 1382,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.228Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 725,
+      "y": 1541,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.863Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 725,
+      "y": 1541,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.863Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 725,
+      "y": 1541,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.945Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 726,
+      "y": 1534,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.952Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 726,
+      "y": 1534,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.952Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 726,
+      "y": 1534,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.952Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 735,
+      "y": 1514,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.969Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 735,
+      "y": 1514,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.969Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 735,
+      "y": 1514,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.969Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 740,
+      "y": 1502,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.978Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 745,
+      "y": 1490,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.986Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 745,
+      "y": 1490,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.986Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 745,
+      "y": 1490,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.986Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 751,
+      "y": 1476,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.994Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 751,
+      "y": 1476,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.995Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 751,
+      "y": 1476,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:20.995Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 765,
+      "y": 1449,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.003Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 765,
+      "y": 1449,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.003Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 765,
+      "y": 1449,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.003Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 780,
+      "y": 1420,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.011Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 780,
+      "y": 1420,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.011Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 780,
+      "y": 1420,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.011Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 796,
+      "y": 1394,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.019Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 796,
+      "y": 1394,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.019Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 796,
+      "y": 1394,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.020Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 803,
+      "y": 1383,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.028Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 803,
+      "y": 1383,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.028Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 803,
+      "y": 1383,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.028Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 817,
+      "y": 1362,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.036Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 817,
+      "y": 1362,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.036Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 817,
+      "y": 1362,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.037Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 831,
+      "y": 1343,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.045Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 831,
+      "y": 1343,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.045Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 831,
+      "y": 1343,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.045Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 843,
+      "y": 1328,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.053Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 848,
+      "y": 1323,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.061Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 848,
+      "y": 1323,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.062Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 848,
+      "y": 1323,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.062Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 858,
+      "y": 1313,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.069Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 860,
+      "y": 1311,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:21.077Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 860,
+      "y": 522,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:22.206Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 860,
+      "y": 522,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:22.207Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 860,
+      "y": 1623,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.036Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 860,
+      "y": 1623,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.037Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 862,
+      "y": 1618,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.098Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 878,
+      "y": 1599,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.114Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 878,
+      "y": 1599,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.114Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 878,
+      "y": 1599,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.115Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 906,
+      "y": 1571,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.119Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 906,
+      "y": 1571,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.120Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 906,
+      "y": 1571,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.120Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 937,
+      "y": 1548,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.128Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 937,
+      "y": 1548,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.128Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 937,
+      "y": 1548,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.128Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 978,
+      "y": 1523,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.136Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 978,
+      "y": 1523,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.136Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 978,
+      "y": 1523,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.136Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 1030,
+      "y": 1494,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.144Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 1030,
+      "y": 1494,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.144Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1030,
+      "y": 1494,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.144Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1084,
+      "y": 1468,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.153Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 1142,
+      "y": 1443,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.163Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 1142,
+      "y": 1443,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.163Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1142,
+      "y": 1443,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.163Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1167,
+      "y": 1434,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.170Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1212,
+      "y": 1416,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.178Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 1228,
+      "y": 1411,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.186Z"
+    },
+    {
+      "action": "mouseover",
+      "x": 1228,
+      "y": 1411,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.186Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1228,
+      "y": 1411,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.186Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1257,
+      "y": 1400,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.194Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1266,
+      "y": 1397,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.202Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1272,
+      "y": 1395,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.211Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1284,
+      "y": 1390,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.219Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1291,
+      "y": 1387,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.228Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1291,
+      "y": 1386,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.395Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1297,
+      "y": 1376,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.412Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1305,
+      "y": 1365,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.419Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1319,
+      "y": 1348,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.427Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1334,
+      "y": 1329,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.435Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1352,
+      "y": 1309,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.446Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1372,
+      "y": 1287,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.454Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1392,
+      "y": 1268,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.465Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1402,
+      "y": 1260,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.469Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1421,
+      "y": 1245,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.479Z"
+    },
+    {
+      "action": "mousemove",
+      "x": 1440,
+      "y": 1231,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.488Z"
+    },
+    {
+      "action": "mouseout",
+      "x": 1458,
+      "y": 1221,
+      "overElementId": "",
+      "overElementClass": "",
+      "timestamp": "2024-02-04T16:28:24.490Z"
+    }
+  ],
+  "keyboardActions": [
+    {
+      "keyId": "91",
+      "key": "[",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:13.479Z"
+    },
+    {
+      "keyId": "65",
+      "key": "A",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:13.597Z"
+    },
+    {
+      "keyId": "16",
+      "key": "\u0010",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:13.891Z"
+    },
+    {
+      "keyId": "68",
+      "key": "D",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:14.034Z"
+    },
+    {
+      "keyId": "82",
+      "key": "R",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:14.250Z"
+    },
+    {
+      "keyId": "65",
+      "key": "A",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:14.337Z"
+    },
+    {
+      "keyId": "71",
+      "key": "G",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:14.466Z"
+    },
+    {
+      "keyId": "85",
+      "key": "U",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:14.572Z"
+    },
+    {
+      "keyId": "84",
+      "key": "T",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:14.704Z"
+    },
+    {
+      "keyId": "73",
+      "key": "I",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:14.778Z"
+    },
+    {
+      "keyId": "78",
+      "key": "N",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:14.865Z"
+    },
+    {
+      "keyId": "32",
+      "key": " ",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:14.971Z"
+    },
+    {
+      "keyId": "16",
+      "key": "\u0010",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:15.067Z"
+    },
+    {
+      "keyId": "84",
+      "key": "T",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:15.213Z"
+    },
+    {
+      "keyId": "79",
+      "key": "O",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:15.402Z"
+    },
+    {
+      "keyId": "68",
+      "key": "D",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:15.535Z"
+    },
+    {
+      "keyId": "79",
+      "key": "O",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:15.681Z"
+    },
+    {
+      "keyId": "82",
+      "key": "R",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:15.780Z"
+    },
+    {
+      "keyId": "79",
+      "key": "O",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:15.904Z"
+    },
+    {
+      "keyId": "86",
+      "key": "V",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:16.057Z"
+    },
+    {
+      "keyId": "73",
+      "key": "I",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:16.116Z"
+    },
+    {
+      "keyId": "67",
+      "key": "C",
+      "elementX": 605,
+      "elementY": 810,
+      "elementId": "",
+      "elementClass": "whsOnd zHQkBf",
+      "timestamp": "2024-02-04T16:28:16.282Z"
+    },
+    {
+      "keyId": "77",
+      "key": "M",
+      "elementX": 605,
+      "elementY": 1230,
+      "elementId": "",
+      "elementClass": "KHxj8b tL9Q4c",
+      "timestamp": "2024-02-04T16:28:18.916Z"
+    },
+    {
+      "keyId": "75",
+      "key": "K",
+      "elementX": 605,
+      "elementY": 1230,
+      "elementId": "",
+      "elementClass": "KHxj8b tL9Q4c",
+      "timestamp": "2024-02-04T16:28:19.099Z"
+    },
+    {
+      "keyId": "32",
+      "key": " ",
+      "elementX": 605,
+      "elementY": 1230,
+      "elementId": "",
+      "elementClass": "KHxj8b tL9Q4c",
+      "timestamp": "2024-02-04T16:28:19.188Z"
+    },
+    {
+      "keyId": "77",
+      "key": "M",
+      "elementX": 605,
+      "elementY": 1230,
+      "elementId": "",
+      "elementClass": "KHxj8b tL9Q4c",
+      "timestamp": "2024-02-04T16:28:19.404Z"
+    },
+    {
+      "keyId": "75",
+      "key": "K",
+      "elementX": 605,
+      "elementY": 1230,
+      "elementId": "",
+      "elementClass": "KHxj8b tL9Q4c",
+      "timestamp": "2024-02-04T16:28:19.660Z"
+    },
+    {
+      "keyId": "32",
+      "key": " ",
+      "elementX": 605,
+      "elementY": 1230,
+      "elementId": "",
+      "elementClass": "KHxj8b tL9Q4c",
+      "timestamp": "2024-02-04T16:28:19.907Z"
+    }
+  ],
+  "scrollActions": [
+    {
+      "deltaX": 0,
+      "deltaY": 199,
+      "timestamp": "2024-02-04T16:28:10.051Z"
+    },
+    {
+      "deltaX": 0,
+      "deltaY": 38,
+      "timestamp": "2024-02-04T16:28:13.430Z"
+    },
+    {
+      "deltaX": 0,
+      "deltaY": 232,
+      "timestamp": "2024-02-04T16:28:17.123Z"
+    },
+    {
+      "deltaX": 0,
+      "deltaY": 282,
+      "timestamp": "2024-02-04T16:28:18.546Z"
+    },
+    {
+      "deltaX": 0,
+      "deltaY": 159,
+      "timestamp": "2024-02-04T16:28:20.849Z"
+    },
+    {
+      "deltaX": 0,
+      "deltaY": -796,
+      "timestamp": "2024-02-04T16:28:22.522Z"
+    },
+    {
+      "deltaX": 0,
+      "deltaY": 1108,
+      "timestamp": "2024-02-04T16:28:24.138Z"
+    }
+  ],
+  "features": [
+  ],
+  "startedAt": "2024-02-04T17:28:06.863Z",
+  "endedAt": "2024-02-04T17:28:26.381Z"
+}

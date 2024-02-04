@@ -4,6 +4,7 @@ import com.dragutin.uxanalytics.dto.ScreenInfoDto;
 import com.dragutin.uxanalytics.dto.actions.KeyboardActionDto;
 import com.dragutin.uxanalytics.dto.actions.MouseActionDto;
 import com.dragutin.uxanalytics.dto.actions.ScrollActionDto;
+import com.dragutin.uxanalytics.dto.features.FeatureDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -30,6 +31,7 @@ public class UserJourneyEntity {
     private List<MouseActionDto> mouseActions;
     private List<KeyboardActionDto> keyboardActions;
     private List<ScrollActionDto> scrollActions;
+    private List<FeatureDto> features;
     private Instant startedAt;
     private Instant endedAt;
 }
