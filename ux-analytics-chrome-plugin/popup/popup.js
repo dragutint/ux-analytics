@@ -4,6 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const stopButton = document.getElementById('stopButton');
     const emailInput = document.getElementById('email');
 
+    let successContainer = document.getElementById('successContainer');
+    let successText = document.getElementById('successText');
+    let errorContainer = document.getElementById('errorContainer');
+    let errorText = document.getElementById('errorText');
+
     // get email from local storage and set it to input
     chrome.storage.sync.get(['email'], function(result) {
 
@@ -43,17 +48,29 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 function(response) {
                     console.log(response);
+
+                    if(response.status !== 200) {
+                        errorText.innerHTML = response.message;
+                        errorContainer.style.display = 'block';
+                        successText.innerHTML = '';
+                        successContainer.style.display = 'none';
+                    } else {
+                        errorText.innerHTML = '';
+                        errorContainer.style.display = 'none';
+                        successText.innerHTML = response.message;
+                        successContainer.style.display = 'block';
+
+                        // save that start button is pressed and disable it
+                        chrome.storage.sync.set({startButtonPressed: true}, function() {
+                            console.log('Start button is pressed');
+                        });
+
+                        startButton.disabled = true;
+                        stopButton.disabled = false;
+                    }
                 }
             );
         });
-
-        // save that start button is pressed and disable it
-        chrome.storage.sync.set({startButtonPressed: true}, function() {
-            console.log('Start button is pressed');
-        });
-
-        startButton.disabled = true;
-        stopButton.disabled = false;
     });
 
 
@@ -66,6 +83,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 { action: 'stop' },
                 function(response) {
                     console.log(response);
+
+                    if(response.status === 200) {
+                        successText.innerHTML = response.message;
+                        successContainer.style.display = 'block';
+                        errorText.innerHTML = '';
+                        errorContainer.style.display = 'none';
+                    } else {
+                        successText.innerHTML = '';
+                        successContainer.style.display = 'none';
+                        errorText.innerHTML = response.message;
+                        errorContainer.style.display = 'block';
+                    }
                 }
             );
         });

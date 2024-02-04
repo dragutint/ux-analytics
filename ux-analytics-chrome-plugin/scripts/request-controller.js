@@ -1,26 +1,42 @@
 
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
+    let response = {};
+
     if (request.action === 'start') {
+
         // Logic to start functionality
         console.log("UX Analytics - start event listener")
 
-        ServerClient.createUserJourney(request.email);
+        ServerClient.createUserJourney(request.email)
+            .then(response => {
+                if(response.status === 200) {
+                    // attach all listeners here
+                    console.log("UX Analytics - attaching event listeners");
 
-        // attach all listeners here
-        // keyboard
-        document.addEventListener("keydown", KeyboardService.eventsListener);
+                    // keyboard
+                    document.addEventListener("keydown", KeyboardService.eventsListener);
 
-        // mouse
-        document.addEventListener("mousemove", MouseService.eventsListener);
-        document.addEventListener("mouseover", MouseService.eventsListener);
-        document.addEventListener("mouseout", MouseService.eventsListener);
-        document.addEventListener("click", MouseService.eventsListener);
+                    // mouse
+                    document.addEventListener("mousemove", MouseService.eventsListener);
+                    document.addEventListener("mouseover", MouseService.eventsListener);
+                    document.addEventListener("mouseout", MouseService.eventsListener);
+                    document.addEventListener("click", MouseService.eventsListener);
 
-        // scroll
-        document.addEventListener("scroll", ScrollService.eventsListener);
+                    // scroll
+                    document.addEventListener("scroll", ScrollService.eventsListener);
+                }
+
+                sendResponse(response);
+            })
+            .catch(error => {
+                sendResponse(error);
+            });
+
+        return true;
 
     } else if (request.action === 'stop') {
+
         // Logic to stop functionality
         console.log("UX Analytics - stop event listener")
 
@@ -38,9 +54,16 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         document.removeEventListener("scroll", ScrollService.eventsListener);
 
         // send the last batch of events to server
-        ServerClient.sendEventsToServer(MouseService.events, KeyboardService.events, ScrollService.events);
-        ServerClient.terminate();
-    }
+        ServerClient.sendEventsToServer(MouseService.events, KeyboardService.events, ScrollService.events)
 
-    return true;
+        ServerClient.terminate()
+            .then(r => {
+                sendResponse(r);
+            })
+            .catch(e => {
+                sendResponse(e);
+            });
+
+        return true;
+    }
 });

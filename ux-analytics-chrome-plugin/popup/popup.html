@@ -22,6 +22,18 @@
         <label for="email" class="form-label">Email address</label>
         <input type="email" class="form-control" id="email" placeholder="name@example.com">
     </div>
+    <!-- Error container div -->
+    <div class="container my-3 text-center">
+        <div id="errorContainer" class="alert alert-danger rounded" role="alert" style="display: none">
+            <strong>Error:</strong> <span id="errorText"></span>
+        </div>
+    </div>
+    <!-- Success container div -->
+    <div class="container my-3 text-center">
+        <div id="successContainer" class="alert alert-success rounded" role="alert" style="display: none">
+            <strong>Congratulations:</strong> <span id="successText"></span>
+        </div>
+    </div>
 
     <div class="container mb-3 text-center">
         <p>Click the button below to start recording your user experience.</p>
