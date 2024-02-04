@@ -3,6 +3,8 @@ class KeyboardService {
     static EVENTS_BATCH_SIZE_FOR_SEND = 20;
     static events = [];
 
+    //////////////////////////////
+    // main listener
     static eventsListener = (e) => {
         const KeyID = e.keyCode;
 
@@ -34,6 +36,8 @@ class KeyboardService {
         }
     };
 
+    //////////////////////////////
+    // small "private" functions for better readability
     static getScreenCoordinates(target) {
 
         let x = 0;
