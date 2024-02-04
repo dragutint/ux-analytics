@@ -2,6 +2,7 @@ package com.dragutin.uxanalytics.repository;
 
 import com.dragutin.uxanalytics.dto.requests.UserJourneyEventsRequest;
 import com.dragutin.uxanalytics.entity.UserJourneyEntity;
+import com.dragutin.uxanalytics.entity.UserJourneyStatus;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Update;
@@ -20,6 +21,8 @@ public class UserJourneyEntityRepositoryCustomImpl implements UserJourneyEntityR
     public void appendEvents(String email, UserJourneyEventsRequest request) {
 
         Update update = new Update();
+
+        update.set("status", UserJourneyStatus.IN_PROGRESS);
 
         if(request.getMouseActions() != null && !request.getMouseActions().isEmpty()) {
             update.push("mouseActions").each(request.getMouseActions());

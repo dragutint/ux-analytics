@@ -33,4 +33,12 @@ public class UserJourneyApi {
         return ResponseEntity.ok().build();
     }
 
+    @PostMapping("/user-journeys/{email}/terminate")
+    public ResponseEntity<Void> terminate(@PathVariable String email) {
+
+        userJourneyService.terminate(email);
+
+        return ResponseEntity.ok().build();
+    }
+
 }
