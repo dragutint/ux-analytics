@@ -28,7 +28,12 @@ class ServerClient {
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.setRequestHeader("Accept", "application/json");
 
+        // send and handle error response
         xhr.send(data);
+
+        xhr.onerror = function() {
+            console.log("Error: " + xhr.status);
+        }
     }
 
     // Sends mouse and keyboard events to the server
@@ -52,6 +57,35 @@ class ServerClient {
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.setRequestHeader("Accept", "application/json");
 
+        // send and handle error response
         xhr.send(data);
+
+        xhr.onerror = function() {
+            console.log("Error: " + xhr.status);
+        };
+    }
+
+    // Terminate user journey on the server
+    static terminate() {
+
+        const xhr = new XMLHttpRequest();
+
+        xhr.addEventListener("readystatechange", function() {
+            if(this.readyState === 4) {
+                console.log(this.responseText);
+            }
+        });
+        let requestUrl = this.SERVER_URL + "/user-journeys/" + this.userEmail + "/terminate";
+
+        xhr.open("POST", requestUrl, true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.setRequestHeader("Accept", "application/json");
+
+        // send and handle error response
+        xhr.send();
+
+        xhr.onerror = function() {
+            console.log("Error: " + xhr.status);
+        };
     }
 }

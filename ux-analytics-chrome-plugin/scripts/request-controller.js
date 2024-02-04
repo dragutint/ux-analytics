@@ -39,6 +39,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
         // send the last batch of events to server
         ServerClient.sendEventsToServer(MouseService.events, KeyboardService.events, ScrollService.events);
+        ServerClient.terminate();
     }
 
     return true;
