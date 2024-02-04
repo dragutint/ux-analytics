@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      database: ux-analytics
+      uri: mongodb://root:example@localhost:27017/?authMechanism=SCRAM-SHA-256
+  docker:
+    compose:
+      file: ux-analytics-backend/src/main/docker/db-mongo.yml

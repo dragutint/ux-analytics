@@ -5,7 +5,6 @@ import com.dragutin.uxanalytics.dto.ScreenInfoDto;
 import com.dragutin.uxanalytics.dto.UserDto;
 import com.dragutin.uxanalytics.dto.actions.KeyboardActionDto;
 import com.dragutin.uxanalytics.dto.actions.MouseActionDto;
-import com.dragutin.uxanalytics.dto.actions.MouseActionType;
 import com.dragutin.uxanalytics.dto.requests.CreateUserJourneyRequest;
 import com.dragutin.uxanalytics.dto.requests.UserJourneyEventsRequest;
 import com.dragutin.uxanalytics.dto.responses.CreateUserJourneyResponse;
@@ -83,25 +82,25 @@ public class UserJourneyComponentTest extends AbstractComponentTest {
         UserJourneyEventsRequest appendRequest = new UserJourneyEventsRequest();
         final List<MouseActionDto> mouseActions = List.of(
                 MouseActionDto.builder()
-                        .action(MouseActionType.MOVEMENT)
+                        .action("mousemove")
                         .x(2L)
                         .y(4L)
                         .timestamp(LocalDateTime.now().minusSeconds(5))
                         .build(),
                 MouseActionDto.builder()
-                        .action(MouseActionType.MOVEMENT)
+                        .action("mousemove")
                         .x(3L)
                         .y(5L)
                         .timestamp(LocalDateTime.now().minusSeconds(4))
                         .build(),
                 MouseActionDto.builder()
-                        .action(MouseActionType.MOVEMENT)
+                        .action("mousemove")
                         .x(4L)
                         .y(6L)
                         .timestamp(LocalDateTime.now().minusSeconds(3))
                         .build(),
                 MouseActionDto.builder()
-                        .action(MouseActionType.MOVEMENT)
+                        .action("mousemove")
                         .x(5L)
                         .y(7L)
                         .timestamp(LocalDateTime.now().minusSeconds(2))

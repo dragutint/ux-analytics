@@ -1,16 +1,11 @@
 package com.dragutin.uxanalytics.repository;
 
-import com.dragutin.uxanalytics.dto.actions.KeyboardActionDto;
-import com.dragutin.uxanalytics.dto.actions.MouseActionDto;
+import com.dragutin.uxanalytics.dto.requests.UserJourneyEventsRequest;
 import com.dragutin.uxanalytics.entity.UserJourneyEntity;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 import static org.springframework.data.mongodb.core.query.Criteria.where;
 import static org.springframework.data.mongodb.core.query.Query.query;
@@ -22,16 +17,20 @@ public class UserJourneyEntityRepositoryCustomImpl implements UserJourneyEntityR
     private final MongoTemplate mongoTemplate;
 
     @Override
-    public void appendEvents(String email, List<MouseActionDto> mouseActions, List<KeyboardActionDto> keyboardActions) {
+    public void appendEvents(String email, UserJourneyEventsRequest request) {
 
         Update update = new Update();
 
-        if(mouseActions != null && !mouseActions.isEmpty()) {
-            update.push("mouseActions").each(mouseActions);
+        if(request.getMouseActions() != null && !request.getMouseActions().isEmpty()) {
+            update.push("mouseActions").each(request.getMouseActions());
         }
 
-        if(keyboardActions != null && !keyboardActions.isEmpty()) {
-            update.push("keyboardActions").each(keyboardActions);
+        if(request.getKeyboardActions() != null && !request.getKeyboardActions().isEmpty()) {
+            update.push("keyboardActions").each(request.getKeyboardActions());
+        }
+
+        if(request.getScrollActions() != null && !request.getScrollActions().isEmpty()) {
+            update.push("scrollActions").each(request.getScrollActions());
         }
 
         mongoTemplate.updateFirst(

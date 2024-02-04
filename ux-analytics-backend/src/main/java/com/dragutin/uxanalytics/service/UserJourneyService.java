@@ -39,7 +39,7 @@ public class UserJourneyService {
 
         log.info("Appending events for user: {}", email);
 
-        repository.appendEvents(email, userJourneyEventsRequest.getMouseActions(), userJourneyEventsRequest.getKeyboardActions());
+        repository.appendEvents(email, userJourneyEventsRequest);
 
         log.info("Events appended for user: {}", email);
     }

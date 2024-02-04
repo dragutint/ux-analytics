@@ -1,12 +1,8 @@
 package com.dragutin.uxanalytics.repository;
 
-import com.dragutin.uxanalytics.dto.actions.KeyboardActionDto;
-import com.dragutin.uxanalytics.dto.actions.MouseActionDto;
-import org.springframework.stereotype.Repository;
-
-import java.util.List;
+import com.dragutin.uxanalytics.dto.requests.UserJourneyEventsRequest;
 
 public interface UserJourneyEntityRepositoryCustom {
 
-    void appendEvents(String email, List<MouseActionDto> mouseActions, List<KeyboardActionDto> keyboardActions);
+    void appendEvents(String email, UserJourneyEventsRequest userJourneyEventsRequest);
 }

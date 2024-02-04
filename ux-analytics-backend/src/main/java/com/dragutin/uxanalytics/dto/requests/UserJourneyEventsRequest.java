@@ -2,6 +2,7 @@ package com.dragutin.uxanalytics.dto.requests;
 
 import com.dragutin.uxanalytics.dto.actions.KeyboardActionDto;
 import com.dragutin.uxanalytics.dto.actions.MouseActionDto;
+import com.dragutin.uxanalytics.dto.actions.ScrollActionDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,5 +18,6 @@ public class UserJourneyEventsRequest {
 
     private List<MouseActionDto> mouseActions;
     private List<KeyboardActionDto> keyboardActions;
+    private List<ScrollActionDto> scrollActions;
 
 }

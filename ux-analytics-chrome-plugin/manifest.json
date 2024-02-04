@@ -9,10 +9,11 @@
         "https://*/*"
       ],
       "js": [
-        "scripts/request-action-listener.js",
-        "scripts/mouse-event-listeners.js",
-        "scripts/keyboard-event-listeners.js",
-        "scripts/server-client.js"
+        "scripts/request-controller.js",
+        "scripts/listeners/mouse-event-listeners.js",
+        "scripts/listeners/keyboard-event-listeners.js",
+        "scripts/listeners/scroll-event-listeners.js",
+        "scripts/client/server-client.js"
       ]
     }
   ],
