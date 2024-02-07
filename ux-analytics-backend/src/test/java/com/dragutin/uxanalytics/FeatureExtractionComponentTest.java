@@ -74,11 +74,11 @@ public class FeatureExtractionComponentTest extends AbstractComponentTest {
 
         assertNotNull(features);
 
-        assertFeature("totalMouseLength", "6663.007336806887", features);
+        assertFeature("totalMouseLength", "6663.007336806887px", features);
         assertFeature("totalClicks", "4", features);
-//        assertFeature("totalScrollLength", "0.0", features);
-//        assertFeature("totalKeyboardPresses", "0", features);
-//        assertFeature("totalIdleTime", "0.0", features);
+        assertFeature("totalScrollLength", "2814px", features);
+        assertFeature("totalKeyboardPresses", "28", features);
+        assertFeature("numberOfScrollDirectionChanges", "2", features);
 
     }
 
