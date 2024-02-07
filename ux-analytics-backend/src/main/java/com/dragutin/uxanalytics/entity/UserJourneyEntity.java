@@ -34,4 +34,5 @@ public class UserJourneyEntity {
     private List<FeatureDto> features;
     private Instant startedAt;
     private Instant endedAt;
+    private Instant lastEventAt;
 }

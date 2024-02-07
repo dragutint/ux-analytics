@@ -1,14 +1,11 @@
 package com.dragutin.uxanalytics.service;
 
-import com.dragutin.uxanalytics.dto.actions.ActionDto;
-import com.dragutin.uxanalytics.dto.features.FeatureDto;
 import com.dragutin.uxanalytics.dto.requests.CreateUserJourneyRequest;
 import com.dragutin.uxanalytics.dto.requests.UserJourneyEventsRequest;
 import com.dragutin.uxanalytics.dto.responses.CreateUserJourneyResponse;
 import com.dragutin.uxanalytics.entity.UserJourneyEntity;
 import com.dragutin.uxanalytics.entity.UserJourneyStatus;
 import com.dragutin.uxanalytics.repository.UserJourneyEntityRepository;
-import com.dragutin.uxanalytics.service.features.FeatureExtractor;
 import com.dragutin.uxanalytics.service.mapper.UserJourneyServiceMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -16,7 +13,6 @@ import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
@@ -31,7 +27,7 @@ public class UserJourneyService {
 
     public CreateUserJourneyResponse createUserJourney(CreateUserJourneyRequest userJourneyDto) {
 
-        log.info("Creating user journey, request: {}", userJourneyDto);
+        log.debug("Creating user journey, request: {}", userJourneyDto);
 
         if(repository.existsById(userJourneyDto.getUser().getEmail())) {
             throw new IllegalArgumentException("User journey already exists for user: " + userJourneyDto.getUser().getEmail());
@@ -53,7 +49,7 @@ public class UserJourneyService {
 
     public void appendEvents(String email, UserJourneyEventsRequest userJourneyEventsRequest) {
 
-        log.info("Appending events for user: {}", email);
+        log.debug("Appending events for user: {}", email);
 
         if(!repository.existsById(email)) {
             throw new IllegalArgumentException("User journey does not exist for user: " + email);
@@ -66,7 +62,7 @@ public class UserJourneyService {
 
     public void terminate(String email) {
 
-        log.info("Terminating user journey for user: {}", email);
+        log.debug("Terminating user journey for user: {}", email);
 
         final UserJourneyEntity entity = repository.findById(email)
                 .orElseThrow(() -> new IllegalArgumentException("User journey does not exist for user: " + email));
@@ -83,11 +79,25 @@ public class UserJourneyService {
 
     public void quantify(String email) {
 
-        log.info("Quantifying user journey for user: {}", email);
+        log.debug("Quantifying user journey for user: {}", email);
 
         uxQuantificationService.quantify(email);
 
         log.info("User journey quantified for user: {}", email);
 
+    }
+
+    public void expireStale(int thresholdInMinutes) {
+
+        log.debug("Expiring stale user journeys");
+
+        final List<UserJourneyEntity> staleUserJourneys = repository.findStaleUserJourneys(thresholdInMinutes);
+
+        staleUserJourneys.forEach(userJourney -> {
+            userJourney.setStatus(UserJourneyStatus.EXPIRED);
+            repository.save(userJourney);
+        });
+
+        log.info("Stale user journeys expired");
     }
 }

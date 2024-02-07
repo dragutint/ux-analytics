@@ -23,7 +23,7 @@ public class UXQuantificationService {
 
     public void quantify(String email) {
 
-        log.info("Quantifying user journey for user: {}", email);
+        log.debug("Quantifying user journey for user: {}", email);
 
         final UserJourneyEntity userJourney = repository.findById(email)
                 .orElseThrow(() -> new IllegalArgumentException("User journey does not exist for user: " + email));

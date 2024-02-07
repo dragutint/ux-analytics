@@ -3,3 +3,7 @@ spring:
     mongodb:
       database: ux-analytics
       uri: mongodb://root:example@localhost:27017/?authMechanism=SCRAM-SHA-256
+
+expiry:
+  user-journeys:
+    stale-threshold-in-minutes: 5

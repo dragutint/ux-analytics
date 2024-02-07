@@ -8,6 +8,9 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Repository;
 
+import java.time.Instant;
+import java.util.List;
+
 import static org.springframework.data.mongodb.core.query.Criteria.where;
 import static org.springframework.data.mongodb.core.query.Query.query;
 
@@ -23,6 +26,7 @@ public class UserJourneyEntityRepositoryCustomImpl implements UserJourneyEntityR
         Update update = new Update();
 
         update.set("status", UserJourneyStatus.IN_PROGRESS);
+        update.set("lastEventAt", Instant.now());
 
         if(request.getMouseActions() != null && !request.getMouseActions().isEmpty()) {
             update.push("mouseActions").each(request.getMouseActions());
@@ -39,6 +43,16 @@ public class UserJourneyEntityRepositoryCustomImpl implements UserJourneyEntityR
         mongoTemplate.updateFirst(
                 query(where("email").is(email)),
                 update,
+                UserJourneyEntity.class
+        );
+    }
+
+    @Override
+    public List<UserJourneyEntity> findStaleUserJourneys(int thresholdInMinutes) {
+
+        return mongoTemplate.find(
+                query(where("status").is(UserJourneyStatus.IN_PROGRESS)
+                        .and("lastEventAt").lt(Instant.now().minusSeconds(thresholdInMinutes * 60L))),
                 UserJourneyEntity.class
         );
     }
