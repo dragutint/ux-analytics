@@ -3,6 +3,7 @@ class ScrollService {
     static scrollActionTimeout = 100;
     static events = [];
     static isScrolling = false;
+    static scrollingStartTimestamp;
     static timeout;
 
     static totalScrollDeltaY = 0;
@@ -19,6 +20,7 @@ class ScrollService {
         if (!this.isScrolling) {
             console.log('Scrolling started');
             this.isScrolling = true;
+            this.scrollingStartTimestamp = new Date().toISOString();
         }
 
         clearTimeout(this.timeout);
@@ -30,7 +32,12 @@ class ScrollService {
             console.log('Total Scroll Delta Y:', ScrollService.totalScrollDeltaX);
             console.log('Total Scroll Delta X:', ScrollService.totalScrollDeltaY);
 
-            ScrollService.appendEventToList(ScrollService.totalScrollDeltaY, ScrollService.totalScrollDeltaX);
+            ScrollService.appendEventToList(
+                ScrollService.totalScrollDeltaY,
+                ScrollService.totalScrollDeltaX,
+                ScrollService.scrollingStartTimestamp,
+                new Date().toISOString()
+            );
 
             ScrollService.isScrolling = false;
             ScrollService.totalScrollDeltaY = 0;
@@ -59,9 +66,11 @@ class ScrollService {
 
     //////////////////////////////
     // small "private" functions for better readability
-    static appendEventToList(deltaY, deltaX) {
+    static appendEventToList(deltaY, deltaX, startTimestamp, endTimestamp) {
 
         this.events.push({
+            "startTimestamp": startTimestamp,
+            "endTimestamp": endTimestamp,
             "deltaX": deltaX,
             "deltaY": deltaY,
             "timestamp": new Date().toISOString()

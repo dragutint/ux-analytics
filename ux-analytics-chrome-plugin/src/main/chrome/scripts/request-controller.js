@@ -16,6 +16,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
                     // keyboard
                     document.addEventListener("keydown", KeyboardService.eventsListener);
+                    document.addEventListener("keyup", KeyboardService.eventsListener);
 
                     // mouse
                     document.addEventListener("mousemove", MouseService.eventsListener);
@@ -43,6 +44,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         // remove all listeners
         // keyboard
         document.removeEventListener("keydown", KeyboardService.eventsListener);
+        document.removeEventListener("keyup", KeyboardService.eventsListener);
 
         // mouse
         document.removeEventListener("mousemove", MouseService.eventsListener);
