@@ -10,7 +10,8 @@
 
 ## Description
 
-This UX Analytics Tool is a master's thesis project designed to provide a comprehensive analysis of user experience (UX). It leverages biometric and behavioristic data, including scroll patterns, mouse movements, and keyboard
+This UX Analytics Tool is a master's thesis project designed to provide a comprehensive analysis of user experience (UX). 
+It leverages biometric and behavioristic data, including scroll patterns, mouse movements, and keyboard
 interactions, to gain insights into user behavior on the screen. The goal of this tool is to enhance the understanding
 of user interactions and improve UX design based on data-driven insights.
 
