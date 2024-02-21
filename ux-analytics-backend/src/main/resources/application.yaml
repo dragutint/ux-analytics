@@ -3,6 +3,9 @@ spring:
     mongodb:
       database: ux-analytics
       uri: mongodb://root:example@localhost:27017/?authMechanism=SCRAM-SHA-256
+  docker:
+    compose:
+      enabled: false
 
 expiry:
   user-journeys:
