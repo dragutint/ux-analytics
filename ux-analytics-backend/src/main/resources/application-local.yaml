@@ -6,3 +6,4 @@ spring:
   docker:
     compose:
       file: ux-analytics-backend/src/main/docker/db-mongo.yml
+      enabled: true

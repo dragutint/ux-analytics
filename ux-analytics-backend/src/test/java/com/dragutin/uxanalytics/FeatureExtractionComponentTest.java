@@ -74,11 +74,22 @@ public class FeatureExtractionComponentTest extends AbstractComponentTest {
 
         assertNotNull(features);
 
+        // mouse related features
         assertFeature("totalMouseLength", "6663.007336806887px", features);
+        assertFeature("averageMouseSpeed", "0.8584px/ms", features);
         assertFeature("totalClicks", "4", features);
-        assertFeature("totalScrollLength", "2814px", features);
+
+        // keyboard related features
         assertFeature("totalKeyboardPresses", "28", features);
+
+        // scroll related features
+        assertFeature("totalScrollLength", "2814px", features);
+        assertFeature("averageScrollSpeed", "0.0px/ms", features);
         assertFeature("numberOfScrollDirectionChanges", "2", features);
+
+        // TODO
+        // pauseThenClickAverageTime
+        //
 
     }
 

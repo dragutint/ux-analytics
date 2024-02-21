@@ -1,7 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="UX Analytics" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <configuration default="false" name="UX Analytics local" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <option name="ACTIVE_PROFILES" value="local" />
-    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     <module name="ux-analytics-backend" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.dragutin.uxanalytics.UxAnalyticsApplication" />
     <method v="2">

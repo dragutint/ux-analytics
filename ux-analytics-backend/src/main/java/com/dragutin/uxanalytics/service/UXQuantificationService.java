@@ -33,8 +33,12 @@ public class UXQuantificationService {
 
         for(FeatureExtractor featureExtractor : featureExtractors) {
 
-            final FeatureDto feature = featureExtractor.extract(actions);
-            features.add(feature);
+            try {
+                final FeatureDto feature = featureExtractor.extract(actions);
+                features.add(feature);
+            } catch (Exception e) {
+                log.error("Error while extracting feature: {}", featureExtractor.getClass().getSimpleName(), e);
+            }
         }
 
         userJourney.setFeatures(features);
@@ -48,9 +52,15 @@ public class UXQuantificationService {
 
         final List<ActionDto> actions = new ArrayList<>();
 
-        actions.addAll(userJourney.getMouseActions());
-        actions.addAll(userJourney.getKeyboardActions());
-        actions.addAll(userJourney.getScrollActions());
+        if(userJourney.getMouseActions() != null) {
+            actions.addAll(userJourney.getMouseActions());
+        }
+        if(userJourney.getKeyboardActions() != null) {
+            actions.addAll(userJourney.getKeyboardActions());
+        }
+        if(userJourney.getScrollActions() != null) {
+            actions.addAll(userJourney.getScrollActions());
+        }
 
         actions.sort(Comparator.comparing(ActionDto::getTimestamp));
 

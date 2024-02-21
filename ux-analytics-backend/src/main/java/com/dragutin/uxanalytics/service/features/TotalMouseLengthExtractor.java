@@ -37,9 +37,12 @@ public class TotalMouseLengthExtractor implements FeatureExtractor {
             totalMouseLength += distance;
         }
 
+        // round on 4 decimal places
+        String totalMouseLengthString = String.format("%.4f", totalMouseLength);
+
         return FeatureDto.builder()
                 .name("totalMouseLength")
-                .value(totalMouseLength + "px")
+                .value(totalMouseLengthString + "px")
                 .build();
     }
 }
