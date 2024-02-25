@@ -1,6 +1,7 @@
 #!/bin/bash
 
-docker build -t duda973/ux-analytics .
+# amd64 because of the linux server
+docker build --platform linux/amd64 -t duda973/ux-analytics .
 
 docker login
 
