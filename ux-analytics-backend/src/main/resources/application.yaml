@@ -10,3 +10,8 @@ spring:
 expiry:
   user-journeys:
     stale-threshold-in-minutes: 5
+
+logging:
+  level:
+    com.dragutin.uxanalytics: DEBUG
+    org.springframework.data: WARN
