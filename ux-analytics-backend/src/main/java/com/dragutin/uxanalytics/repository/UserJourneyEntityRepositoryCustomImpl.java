@@ -21,7 +21,7 @@ public class UserJourneyEntityRepositoryCustomImpl implements UserJourneyEntityR
     private final MongoTemplate mongoTemplate;
 
     @Override
-    public void appendEvents(String email, UserJourneyEventsRequest request) {
+    public void appendEvents(String token, UserJourneyEventsRequest request) {
 
         Update update = new Update();
 
@@ -41,7 +41,7 @@ public class UserJourneyEntityRepositoryCustomImpl implements UserJourneyEntityR
         }
 
         mongoTemplate.updateFirst(
-                query(where("email").is(email)),
+                query(where("token").is(token)),
                 update,
                 UserJourneyEntity.class
         );

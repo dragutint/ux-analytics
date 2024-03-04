@@ -1,14 +1,11 @@
 class ServerClient {
     static SERVER_URL = "http://localhost:8080";
-    static userEmail = "";
+    static sessionToken = "";
 
     // Initializes user journey on the server
     static createUserJourney(email, scrollHeight = document.body.scrollHeight, scrollWidth = document.body.scrollWidth) {
 
-        this.userEmail = email;
-
         return new Promise((resolve, reject) => {
-            this.userEmail = email;
 
             const data = JSON.stringify({
                 user: {
@@ -25,7 +22,12 @@ class ServerClient {
             xhr.addEventListener("load", function () {
                 if (xhr.status === 200) {
                     console.log("User journey created successfully");
-                    resolve({ status: xhr.status, message: "User journey created successfully" });
+                    ServerClient.sessionToken = JSON.parse(xhr.responseText).token;
+                    resolve({
+                        status: xhr.status,
+                        message: "User journey created successfully, copy this token and paste in the form TOKEN field: " + JSON.parse(xhr.responseText).token,
+                        token: JSON.parse(xhr.responseText).token
+                    });
                 } else {
                     console.log("Error creating user journey: " + xhr.responseText);
                     let errorMessage = "Error creating user journey";
@@ -67,7 +69,7 @@ class ServerClient {
                 console.log(this.responseText);
             }
         });
-        let requestUrl = this.SERVER_URL + "/user-journeys/" + this.userEmail;
+        let requestUrl = this.SERVER_URL + "/user-journeys/" + this.sessionToken;
 
         xhr.open("PUT", requestUrl, true);
         xhr.setRequestHeader("Content-Type", "application/json");
@@ -103,7 +105,7 @@ class ServerClient {
                 reject({ status: 0, message: "Network error occurred" });
             });
 
-            const requestUrl = this.SERVER_URL + "/user-journeys/" + this.userEmail + "/terminate";
+            const requestUrl = this.SERVER_URL + "/user-journeys/" + this.sessionToken + "/terminate";
 
             xhr.open("POST", requestUrl, true);
             xhr.setRequestHeader("Content-Type", "application/json");

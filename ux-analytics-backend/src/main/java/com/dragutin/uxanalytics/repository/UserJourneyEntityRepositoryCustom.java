@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface UserJourneyEntityRepositoryCustom {
 
-    void appendEvents(String email, UserJourneyEventsRequest userJourneyEventsRequest);
+    void appendEvents(String token, UserJourneyEventsRequest userJourneyEventsRequest);
 
     List<UserJourneyEntity> findStaleUserJourneys(int thresholdInMinutes);
 

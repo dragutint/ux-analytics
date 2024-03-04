@@ -25,6 +25,7 @@ public class UserJourneyEntity {
 
     @MongoId
     @Indexed(unique=true)
+    private String token;
     private String email;
     private UserJourneyStatus status;
     private ScreenInfoDto screenInfo;

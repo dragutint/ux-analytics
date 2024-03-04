@@ -21,12 +21,12 @@ public class UXQuantificationService {
     private final UserJourneyEntityRepository repository;
     private final List<FeatureExtractor> featureExtractors;
 
-    public void quantify(String email) {
+    public void quantify(String token) {
 
-        log.debug("Quantifying user journey for user: {}", email);
+        log.debug("Quantifying user journey for token: {}", token);
 
-        final UserJourneyEntity userJourney = repository.findById(email)
-                .orElseThrow(() -> new IllegalArgumentException("User journey does not exist for user: " + email));
+        final UserJourneyEntity userJourney = repository.findById(token)
+                .orElseThrow(() -> new IllegalArgumentException("User journey does not exist for token: " + token));
 
         final List<ActionDto> actions = extractActions(userJourney);
         final List<FeatureDto> features = new ArrayList<>();
@@ -45,7 +45,7 @@ public class UXQuantificationService {
 
         repository.save(userJourney);
 
-        log.info("User journey quantified for user: {}", email);
+        log.info("User journey quantified for user: {}", token);
     }
 
     private List<ActionDto> extractActions(UserJourneyEntity userJourney) {

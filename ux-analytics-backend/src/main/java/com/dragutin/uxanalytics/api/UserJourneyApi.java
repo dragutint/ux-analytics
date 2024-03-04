@@ -25,26 +25,26 @@ public class UserJourneyApi {
         return ResponseEntity.ok(response);
     }
 
-    @PutMapping("/user-journeys/{email}")
-    public ResponseEntity<Void> append(@PathVariable String email, @RequestBody UserJourneyEventsRequest userJourneyEventsRequest) {
+    @PutMapping("/user-journeys/{token}")
+    public ResponseEntity<Void> append(@PathVariable String token, @RequestBody UserJourneyEventsRequest userJourneyEventsRequest) {
 
-        userJourneyService.appendEvents(email, userJourneyEventsRequest);
-
-        return ResponseEntity.ok().build();
-    }
-
-    @PostMapping("/user-journeys/{email}/terminate")
-    public ResponseEntity<Void> terminate(@PathVariable String email) {
-
-        userJourneyService.terminate(email);
+        userJourneyService.appendEvents(token, userJourneyEventsRequest);
 
         return ResponseEntity.ok().build();
     }
 
-    @PostMapping("/user-journeys/{email}/quantify")
-    public ResponseEntity<Void> quantify(@PathVariable String email) {
+    @PostMapping("/user-journeys/{token}/terminate")
+    public ResponseEntity<Void> terminate(@PathVariable String token) {
 
-        userJourneyService.quantify(email);
+        userJourneyService.terminate(token);
+
+        return ResponseEntity.ok().build();
+    }
+
+    @PostMapping("/user-journeys/{token}/quantify")
+    public ResponseEntity<Void> quantify(@PathVariable String token) {
+
+        userJourneyService.quantify(token);
 
         return ResponseEntity.ok().build();
     }
