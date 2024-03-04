@@ -31,5 +31,8 @@
     "activeTab",
     "storage",
     "tabs"
+  ],
+  "host_permissions": [
+    "https://185.181.10.98:8080/*"
   ]
 }
