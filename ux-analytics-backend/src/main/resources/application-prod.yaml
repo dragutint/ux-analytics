@@ -1,7 +1,6 @@
 server:
+  port: 443
   ssl:
     enabled: true
-    key-store-type: 'PKCS12'
-    key-store-password: 'keleraba'
-    key-store: 'classpath:keystore/ux-analytics.p12'
-    key-alias: 'ux-analytics'
+    trust-certificate: 'classpath:keystore/uxanalytics.live.pem'
+    trust-certificate-private-key: 'classpath:keystore/uxanalytics.live.key'

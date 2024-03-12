@@ -34,3 +34,4 @@ build/
 
 ### prod folder
 prod/
+/src/main/resources/keystore/
