@@ -5,6 +5,6 @@ docker build --platform linux/amd64 -t duda973/ux-analytics .
 
 docker login
 
-docker tag duda973/ux-analytics duda973/ux-analytics:1.1
+docker tag duda973/ux-analytics duda973/ux-analytics:1.2
 
-docker push duda973/ux-analytics:1.1
+docker push duda973/ux-analytics:1.2
