@@ -2,5 +2,7 @@ server:
   port: 443
   ssl:
     enabled: true
-    trust-certificate: 'classpath:keystore/uxanalytics.live.pem'
-    trust-certificate-private-key: 'classpath:keystore/uxanalytics.live.key'
+    key-store-type: 'JKS'
+    key-store: 'classpath:keystore/uxanalytics.live.jks'
+    key-store-password: 'keleraba'
+    key-alias: 'server'
