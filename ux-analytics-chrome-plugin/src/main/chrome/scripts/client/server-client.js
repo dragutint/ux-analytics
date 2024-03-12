@@ -1,6 +1,6 @@
 class ServerClient {
     // static SERVER_URL = "http://localhost:8080";
-    static SERVER_URL = "https://185.181.10.98:8080";
+    static SERVER_URL = "https://uxanalytics.live";
     static sessionToken = "";
 
     // Initializes user journey on the server
