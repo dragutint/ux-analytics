@@ -21,7 +21,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <pemFile>
-                        src/main/chrome/resources/pem/ux-analytics-chrome-plugin.pem
+                        src/main/chrome/ux-analytics-chrome-plugin.pem
                     </pemFile>
                 </configuration>
             </plugin>

@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*/*"
+        "https://docs.google.com/forms/*"
       ],
       "js": [
         "scripts/request-controller.js",
@@ -29,10 +29,6 @@
   },
   "permissions": [
     "activeTab",
-    "storage",
-    "tabs"
-  ],
-  "host_permissions": [
-    "https://185.181.10.98:8080/*"
+    "storage"
   ]
 }
