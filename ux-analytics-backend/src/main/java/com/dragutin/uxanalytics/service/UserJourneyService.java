@@ -13,14 +13,18 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class UserJourneyService {
 
     private final UserJourneyServiceMapper mapper;
@@ -49,6 +53,9 @@ public class UserJourneyService {
         mongoRepository.save(entity);
 
         final UserJourneyJpaEntity jpaEntity = mapper.mapToJpaEntity(entity);
+        jpaEntity.setStartedAt(LocalDateTime.ofInstant(now, ZoneOffset.UTC));
+        final Integer currentUserFormsCount = jpaRepository.countByEmail(userJourneyDto.getUser().getEmail());
+        jpaEntity.setFormNumber(currentUserFormsCount + 1);
         jpaRepository.save(jpaEntity);
 
         log.info("User journey created for user: {}", userJourneyDto.getUser());
@@ -83,6 +90,10 @@ public class UserJourneyService {
         entity.setEndedAt(Instant.now());
 
         mongoRepository.save(entity);
+
+        final UserJourneyJpaEntity jpaEntity = jpaRepository.lockByToken(token);
+        jpaEntity.setEndedAt(LocalDateTime.ofInstant(entity.getEndedAt(), ZoneOffset.UTC));
+        jpaRepository.save(jpaEntity);
 
         CompletableFuture.runAsync(() -> uxQuantificationService.quantify(token));
 
@@ -124,15 +135,5 @@ public class UserJourneyService {
         });
 
         log.info("All user journeys quantified");
-    }
-
-    public void asd() {
-
-        final List<UserJourneyEntity> userJourneys = mongoRepository.findAll();
-
-        for(UserJourneyEntity userJourney : userJourneys) {
-            final UserJourneyJpaEntity jpaEntity = mapper.mapToJpaEntity(userJourney);
-            jpaRepository.save(jpaEntity);
-        }
     }
 }

@@ -16,4 +16,6 @@ public interface UserJourneyJpaEntityRepository extends JpaRepository<UserJourne
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     @Query("SELECT u FROM UserJourneyJpaEntity u WHERE u.token = :token")
     UserJourneyJpaEntity lockByToken(@Param("token") String token);
+
+    Integer countByEmail(String email);
 }

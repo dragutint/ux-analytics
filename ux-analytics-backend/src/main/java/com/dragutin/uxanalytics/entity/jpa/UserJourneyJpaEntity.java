@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.UuidGenerator;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
@@ -24,6 +25,12 @@ public class UserJourneyJpaEntity {
     private UUID id;
 
     private String token;
+
+    private LocalDateTime startedAt;
+
+    private LocalDateTime endedAt;
+
+    private Integer formNumber;
 
     private String email;
 

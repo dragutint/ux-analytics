@@ -38,4 +38,20 @@
         <addUniqueConstraint tableName="user_journey" columnNames="token" constraintName="uk_user_journey_token"/>
     </changeSet>
 
+
+    <changeSet id="20240526-3" author="dragutin">
+
+        <addColumn tableName="user_journey">
+            <column name="started_at" type="datetime" />
+        </addColumn>
+
+        <addColumn tableName="user_journey">
+            <column name="ended_at" type="datetime" />
+        </addColumn>
+
+        <addColumn tableName="user_journey">
+            <column name="form_number" type="integer" />
+        </addColumn>
+    </changeSet>
+
 </databaseChangeLog>
