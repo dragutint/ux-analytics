@@ -32,6 +32,10 @@ public class NumberOfScrollDirectionChangesExtractor implements FeatureExtractor
             }
         }
 
-        return new FeatureDto("numberOfScrollDirectionChanges", numberOfScrollDirectionChanges + "");
+        return FeatureDto.builder()
+                .name("numberOfScrollDirectionChanges")
+                .unit("count")
+                .value(numberOfScrollDirectionChanges + "")
+                .build();
     }
 }

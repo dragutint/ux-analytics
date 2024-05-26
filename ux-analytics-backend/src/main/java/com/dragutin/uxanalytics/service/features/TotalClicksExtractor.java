@@ -21,6 +21,10 @@ public class TotalClicksExtractor implements FeatureExtractor {
                 .filter(action -> action.getAction().equals("click"))
                 .count();
 
-        return new FeatureDto("totalClicks", totalClicks + "");
+        return FeatureDto.builder()
+                .name("totalClicks")
+                .unit("count")
+                .value(totalClicks + "")
+                .build();
     }
 }

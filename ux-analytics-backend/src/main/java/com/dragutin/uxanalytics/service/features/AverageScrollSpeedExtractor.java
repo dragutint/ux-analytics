@@ -25,7 +25,8 @@ public class AverageScrollSpeedExtractor implements FeatureExtractor {
 
         return FeatureDto.builder()
                 .name("averageScrollSpeed")
-                .value(averageSpeedString + "px/ms")
+                .unit("px/ms")
+                .value(averageSpeedString)
                 .build();
     }
 

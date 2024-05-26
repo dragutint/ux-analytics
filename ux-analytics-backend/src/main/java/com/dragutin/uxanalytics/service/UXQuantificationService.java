@@ -2,12 +2,16 @@ package com.dragutin.uxanalytics.service;
 
 import com.dragutin.uxanalytics.dto.actions.ActionDto;
 import com.dragutin.uxanalytics.dto.features.FeatureDto;
-import com.dragutin.uxanalytics.entity.UserJourneyEntity;
-import com.dragutin.uxanalytics.repository.UserJourneyEntityRepository;
+import com.dragutin.uxanalytics.entity.jpa.UserJourneyCharacteristicJpaEntity;
+import com.dragutin.uxanalytics.entity.jpa.UserJourneyJpaEntity;
+import com.dragutin.uxanalytics.entity.mongo.UserJourneyEntity;
+import com.dragutin.uxanalytics.repository.jpa.UserJourneyJpaEntityRepository;
+import com.dragutin.uxanalytics.repository.mongo.UserJourneyEntityRepository;
 import com.dragutin.uxanalytics.service.features.FeatureExtractor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -16,16 +20,18 @@ import java.util.List;
 @Slf4j
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class UXQuantificationService {
 
-    private final UserJourneyEntityRepository repository;
+    private final UserJourneyEntityRepository mongoRepository;
+    private final UserJourneyJpaEntityRepository jpaRepository;
     private final List<FeatureExtractor> featureExtractors;
 
     public void quantify(String token) {
 
         log.debug("Quantifying user journey for token: {}", token);
 
-        final UserJourneyEntity userJourney = repository.findById(token)
+        final UserJourneyEntity userJourney = mongoRepository.findById(token)
                 .orElseThrow(() -> new IllegalArgumentException("User journey does not exist for token: " + token));
 
         final List<ActionDto> actions = extractActions(userJourney);
@@ -42,8 +48,26 @@ public class UXQuantificationService {
         }
 
         userJourney.setFeatures(features);
+        mongoRepository.save(userJourney);
 
-        repository.save(userJourney);
+        final List<UserJourneyCharacteristicJpaEntity> characteristics = new ArrayList<>();
+
+        for(FeatureDto feature : features) {
+            characteristics.add(UserJourneyCharacteristicJpaEntity.builder()
+                    .name(feature.getName())
+                    .unit(feature.getUnit())
+                    .value(feature.getValue())
+                    .build());
+        }
+
+        final UserJourneyJpaEntity jpaEntity = jpaRepository.lockByToken(token);
+
+        if (jpaEntity.getCharacteristics() == null) {
+            jpaEntity.setCharacteristics(characteristics);
+        } else {
+            jpaEntity.getCharacteristics().clear();
+            jpaEntity.getCharacteristics().addAll(characteristics);
+        }
 
         log.info("User journey quantified for user: {}", token);
     }

@@ -42,7 +42,8 @@ public class TotalMouseLengthExtractor implements FeatureExtractor {
 
         return FeatureDto.builder()
                 .name("totalMouseLength")
-                .value(totalMouseLengthString + "px")
+                .unit("px")
+                .value(totalMouseLengthString)
                 .build();
     }
 }

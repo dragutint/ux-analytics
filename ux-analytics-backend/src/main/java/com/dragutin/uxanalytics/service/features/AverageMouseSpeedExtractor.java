@@ -25,7 +25,8 @@ public class AverageMouseSpeedExtractor implements FeatureExtractor {
 
         return FeatureDto.builder()
                 .name("averageMouseSpeed")
-                .value(averageSpeedString + "px/ms")
+                .unit("px/ms")
+                .value(averageSpeedString)
                 .build();
     }
 

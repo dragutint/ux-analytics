@@ -3,9 +3,11 @@ package com.dragutin.uxanalytics.service;
 import com.dragutin.uxanalytics.dto.requests.CreateUserJourneyRequest;
 import com.dragutin.uxanalytics.dto.requests.UserJourneyEventsRequest;
 import com.dragutin.uxanalytics.dto.responses.CreateUserJourneyResponse;
-import com.dragutin.uxanalytics.entity.UserJourneyEntity;
-import com.dragutin.uxanalytics.entity.UserJourneyStatus;
-import com.dragutin.uxanalytics.repository.UserJourneyEntityRepository;
+import com.dragutin.uxanalytics.entity.jpa.UserJourneyJpaEntity;
+import com.dragutin.uxanalytics.entity.mongo.UserJourneyEntity;
+import com.dragutin.uxanalytics.entity.mongo.UserJourneyStatus;
+import com.dragutin.uxanalytics.repository.jpa.UserJourneyJpaEntityRepository;
+import com.dragutin.uxanalytics.repository.mongo.UserJourneyEntityRepository;
 import com.dragutin.uxanalytics.service.mapper.UserJourneyServiceMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -22,7 +24,8 @@ import java.util.concurrent.CompletableFuture;
 public class UserJourneyService {
 
     private final UserJourneyServiceMapper mapper;
-    private final UserJourneyEntityRepository repository;
+    private final UserJourneyEntityRepository mongoRepository;
+    private final UserJourneyJpaEntityRepository jpaRepository;
     private final UXQuantificationService uxQuantificationService;
 
     private static final int TOKEN_LENGTH = 6;
@@ -33,7 +36,7 @@ public class UserJourneyService {
 
         log.debug("Creating user journey, request: {}", userJourneyDto);
 
-        if(repository.existsById(userJourneyDto.getUser().getEmail())) {
+        if(mongoRepository.existsById(userJourneyDto.getUser().getEmail())) {
             throw new IllegalArgumentException("User journey already exists for user: " + userJourneyDto.getUser().getEmail());
         }
 
@@ -43,7 +46,10 @@ public class UserJourneyService {
         entity.setStartedAt(now);
         entity.setToken(RandomStringUtils.random(TOKEN_LENGTH, ALPHANUMERIC_CHARACTERS.toCharArray()));
 
-        repository.save(entity);
+        mongoRepository.save(entity);
+
+        final UserJourneyJpaEntity jpaEntity = mapper.mapToJpaEntity(entity);
+        jpaRepository.save(jpaEntity);
 
         log.info("User journey created for user: {}", userJourneyDto.getUser());
 
@@ -57,11 +63,11 @@ public class UserJourneyService {
 
         log.debug("Appending events for token: {}", token);
 
-        if(!repository.existsById(token)) {
+        if(!mongoRepository.existsById(token)) {
             throw new IllegalArgumentException("User journey does not exist for token: " + token);
         }
 
-        repository.appendEvents(token, userJourneyEventsRequest);
+        mongoRepository.appendEvents(token, userJourneyEventsRequest);
 
         log.info("Events appended for user: {}", token);
     }
@@ -70,13 +76,13 @@ public class UserJourneyService {
 
         log.debug("Terminating user journey for token: {}", token);
 
-        final UserJourneyEntity entity = repository.findById(token)
+        final UserJourneyEntity entity = mongoRepository.findById(token)
                 .orElseThrow(() -> new IllegalArgumentException("User journey does not exist for token: " + token));
 
         entity.setStatus(UserJourneyStatus.COMPLETED);
         entity.setEndedAt(Instant.now());
 
-        repository.save(entity);
+        mongoRepository.save(entity);
 
         CompletableFuture.runAsync(() -> uxQuantificationService.quantify(token));
 
@@ -97,11 +103,11 @@ public class UserJourneyService {
 
         log.debug("Expiring stale user journeys");
 
-        final List<UserJourneyEntity> staleUserJourneys = repository.findStaleUserJourneys(thresholdInMinutes);
+        final List<UserJourneyEntity> staleUserJourneys = mongoRepository.findStaleUserJourneys(thresholdInMinutes);
 
         staleUserJourneys.forEach(userJourney -> {
             userJourney.setStatus(UserJourneyStatus.EXPIRED);
-            repository.save(userJourney);
+            mongoRepository.save(userJourney);
         });
 
         log.info("Stale user journeys expired");
@@ -111,12 +117,22 @@ public class UserJourneyService {
 
         log.debug("Quantifying all user journeys");
 
-        final List<UserJourneyEntity> userJourneys = repository.findAll();
+        final List<UserJourneyEntity> userJourneys = mongoRepository.findAll();
 
         userJourneys.forEach(userJourney -> {
             CompletableFuture.runAsync(() -> uxQuantificationService.quantify(userJourney.getToken()));
         });
 
         log.info("All user journeys quantified");
+    }
+
+    public void asd() {
+
+        final List<UserJourneyEntity> userJourneys = mongoRepository.findAll();
+
+        for(UserJourneyEntity userJourney : userJourneys) {
+            final UserJourneyJpaEntity jpaEntity = mapper.mapToJpaEntity(userJourney);
+            jpaRepository.save(jpaEntity);
+        }
     }
 }

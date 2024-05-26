@@ -12,5 +12,6 @@ import lombok.NoArgsConstructor;
 public class FeatureDto {
 
     private String name;
+    private String unit;
     private String value;
 }

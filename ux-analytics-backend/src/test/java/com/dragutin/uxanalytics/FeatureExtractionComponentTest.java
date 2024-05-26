@@ -2,8 +2,8 @@ package com.dragutin.uxanalytics;
 
 import com.dragutin.uxanalytics.config.AbstractComponentTest;
 import com.dragutin.uxanalytics.dto.features.FeatureDto;
-import com.dragutin.uxanalytics.entity.UserJourneyEntity;
-import com.dragutin.uxanalytics.repository.UserJourneyEntityRepository;
+import com.dragutin.uxanalytics.entity.mongo.UserJourneyEntity;
+import com.dragutin.uxanalytics.repository.mongo.UserJourneyEntityRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.dragutin.uxanalytics.entity;
+package com.dragutin.uxanalytics.entity.mongo;
 
 import com.dragutin.uxanalytics.dto.ScreenInfoDto;
 import com.dragutin.uxanalytics.dto.actions.KeyboardActionDto;

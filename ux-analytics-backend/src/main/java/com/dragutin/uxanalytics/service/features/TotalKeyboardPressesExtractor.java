@@ -17,6 +17,10 @@ public class TotalKeyboardPressesExtractor implements FeatureExtractor {
                 .map(action -> (KeyboardActionDto) action)
                 .toList();
 
-        return new FeatureDto("totalKeyboardPresses", keyboardActions.size() + "");
+        return FeatureDto.builder()
+                .name("totalKeyboardPresses")
+                .unit("count")
+                .value(keyboardActions.size() + "")
+                .build();
     }
 }

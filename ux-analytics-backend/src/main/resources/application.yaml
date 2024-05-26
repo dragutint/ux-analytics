@@ -3,9 +3,15 @@ spring:
     mongodb:
       database: ux-analytics
       uri: mongodb://root:example@localhost:27017/?authMechanism=SCRAM-SHA-256
+  datasource:
+    url: jdbc:postgresql://localhost:9595/ux-analytics
+    username: ux-analytics
+    password: ux-analytics
   docker:
     compose:
       enabled: false
+  liquibase:
+    change-log: classpath:/db/master.xml
 
 expiry:
   user-journeys:

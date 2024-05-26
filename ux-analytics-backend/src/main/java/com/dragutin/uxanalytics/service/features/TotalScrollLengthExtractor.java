@@ -27,6 +27,10 @@ public class TotalScrollLengthExtractor implements FeatureExtractor {
                 .map(sa -> Math.abs(sa.getDeltaY()))
                 .reduce(0L, Long::sum);
 
-        return new FeatureDto("totalScrollLength", (totalScrollLengthX + totalScrollLengthY) + "px");
+        return FeatureDto.builder()
+                .name("totalScrollLength")
+                .unit("px")
+                .value(totalScrollLengthX + totalScrollLengthY + "")
+                .build();
     }
 }

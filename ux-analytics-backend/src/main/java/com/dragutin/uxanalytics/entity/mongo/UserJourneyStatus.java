@@ -1,4 +1,4 @@
-package com.dragutin.uxanalytics.entity;
+package com.dragutin.uxanalytics.entity.mongo;
 
 public enum UserJourneyStatus {
     CREATED,

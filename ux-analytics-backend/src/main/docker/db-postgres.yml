@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ux-analytics-postgres:
+    image: postgres:14.1-alpine
+    container_name: lyra
+    restart: always
+    environment:
+      POSTGRES_USER: ux-analytics
+      POSTGRES_PASSWORD: ux-analytics
+      POSTGRES_DB: ux-analytics
+    ports:
+      - '9595:5432'
