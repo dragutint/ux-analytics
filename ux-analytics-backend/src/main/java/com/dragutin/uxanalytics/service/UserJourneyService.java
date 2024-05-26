@@ -106,4 +106,17 @@ public class UserJourneyService {
 
         log.info("Stale user journeys expired");
     }
+
+    public void quantifyAll() {
+
+        log.debug("Quantifying all user journeys");
+
+        final List<UserJourneyEntity> userJourneys = repository.findAll();
+
+        userJourneys.forEach(userJourney -> {
+            CompletableFuture.runAsync(() -> uxQuantificationService.quantify(userJourney.getToken()));
+        });
+
+        log.info("All user journeys quantified");
+    }
 }
