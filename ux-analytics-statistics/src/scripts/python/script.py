@@ -13,9 +13,27 @@ print(data.head())
 characteristics = data['name'].unique()
 print(characteristics)
 
+# Function to remove outliers using IQR method
+def remove_outliers(df, column_name):
+    Q1 = df[column_name].quantile(0.25)
+    Q3 = df[column_name].quantile(0.75)
+    IQR = Q3 - Q1
+    lower_bound = Q1 - 1.5 * IQR
+    upper_bound = Q3 + 1.5 * IQR
+    return df[(df[column_name] >= lower_bound) & (df[column_name] <= upper_bound)]
+
+# Remove outliers for each characteristic
+cleaned_data = pd.DataFrame()
+for characteristic in characteristics:
+    characteristic_data = data[data['name'] == characteristic]
+    cleaned_characteristic_data = remove_outliers(characteristic_data, 'value')
+    cleaned_data = pd.concat([cleaned_data, cleaned_characteristic_data])
+
+print(cleaned_data.head())
+
 # Separate data for each form
-form1_data = data[data['form_number'] == 1]
-form2_data = data[data['form_number'] == 2]
+form1_data = cleaned_data[cleaned_data['form_number'] == 1]
+form2_data = cleaned_data[cleaned_data['form_number'] == 2]
 
 # Calculate mean and standard deviation for each characteristic
 for characteristic in characteristics:
@@ -54,7 +72,7 @@ fig.suptitle('Comparison of Form Characteristics')
 for i, characteristic in enumerate(characteristics):
     row = i // num_cols
     col = i % num_cols
-    sns.boxplot(x='form_number', y='value', data=data[data['name'] == characteristic], ax=axs[row, col])
+    sns.boxplot(x='form_number', y='value', data=cleaned_data[cleaned_data['name'] == characteristic], ax=axs[row, col])
     axs[row, col].set_title(characteristic)
     axs[row, col].set_xlabel('Form Number')
     axs[row, col].set_ylabel('Value')
