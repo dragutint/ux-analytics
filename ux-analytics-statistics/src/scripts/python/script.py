@@ -3,13 +3,23 @@ from scipy.stats import ttest_ind
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the data
 data = pd.read_csv("../../resources/characteristic-vectors-2605.csv")
 
-# Display the first few rows of the data
+title_names = {
+    'averageMouseSpeed': 'Prosečna Brzina Miša u px/s',
+    'averageScrollSpeed': 'Prosečna Brzina Skrolovanja u px/s',
+    'correctionRate': 'Stopa Korekcije',
+    'formCompletionTime': 'Vreme Popunjavanja u sekundama',
+    'idleTime': 'Vreme Neaktivnosti u sekundama',
+    'numberOfScrollDirectionChanges': 'Broj Promena Pravca Skrolovanja',
+    'totalClicks': 'Ukupan Broj Klikova',
+    'totalKeyboardPresses': 'Ukupan Broj Klikova Tastature',
+    'totalMouseLength': 'Ukupna Dužina Kretanja Miša u px',
+    'totalScrollLength': 'Ukupna Dužina Skrolovanja u px'
+}
+
 print(data.head())
 
-# Get all unique characteristics
 characteristics = data['name'].unique()
 print(characteristics)
 
@@ -73,9 +83,9 @@ for i, characteristic in enumerate(characteristics):
     row = i // num_cols
     col = i % num_cols
     sns.boxplot(x='form_number', y='value', data=cleaned_data[cleaned_data['name'] == characteristic], ax=axs[row, col])
-    axs[row, col].set_title(characteristic)
-    axs[row, col].set_xlabel('Form Number')
-    axs[row, col].set_ylabel('Value')
+    axs[row, col].set_title(title_names[characteristic])
+    axs[row, col].set_xlabel('Broj Forme')
+    axs[row, col].set_ylabel('Vrednost')
 
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 plt.show()
