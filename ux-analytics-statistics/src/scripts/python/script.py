@@ -24,13 +24,13 @@ characteristics = data['name'].unique()
 print(characteristics)
 
 # Function to remove outliers using IQR method
-def remove_outliers(df, column_name):
-    Q1 = df[column_name].quantile(0.25)
-    Q3 = df[column_name].quantile(0.75)
+def remove_outliers(data, column_name):
+    Q1 = data[column_name].quantile(0.25)
+    Q3 = data[column_name].quantile(0.75)
     IQR = Q3 - Q1
     lower_bound = Q1 - 1.5 * IQR
     upper_bound = Q3 + 1.5 * IQR
-    return df[(df[column_name] >= lower_bound) & (df[column_name] <= upper_bound)]
+    return data[(data[column_name] >= lower_bound) & (data[column_name] <= upper_bound)]
 
 # Remove outliers for each characteristic
 cleaned_data = pd.DataFrame()
