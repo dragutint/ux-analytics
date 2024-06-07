@@ -49,6 +49,10 @@ public class AverageMouseSpeedExtractor implements FeatureExtractor {
             // Calculate time difference
             long timeDifference = calculateTimeDifference(previousEvent.getTimestamp(), currentEvent.getTimestamp());
 
+            if(timeDifference == 0) {
+                continue;
+            }
+
             // Calculate speed (distance / time)
             double speed = distance / timeDifference;
 
