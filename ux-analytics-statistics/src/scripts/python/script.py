@@ -3,7 +3,7 @@ from scipy.stats import ttest_ind
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv("../../resources/characteristic-vectors-2605.csv")
+data = pd.read_csv("../../resources/characteristic-vectors-0706.csv")
 
 title_names = {
     'averageMouseSpeed': 'Prosečna Brzina Miša u px/s',
