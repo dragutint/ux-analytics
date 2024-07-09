@@ -1,23 +1,30 @@
 sequenceDiagram
     title Dijagram Sekvenci
 
+    participant User as Korisnik
+    participant DOM as DOM
     participant ChromePlugin as Chrome Plugin
     participant UXServer as UX Server
     participant MongoDB as MongoDB
     participant PostgreSQL as PostgreSQL
     participant StatisticsModule as Statistics Module
 
+    User->>DOM: Startuj plugin dugme
+    DOM->>ChromePlugin: Pokreni plugin
     ChromePlugin->>UXServer: Inicijalizuj UX entitet
     UXServer-->>ChromePlugin: Token
     UXServer->>MongoDB: Kreiraj UX entitet
 
     loop
-        ChromePlugin-->>ChromePlugin: Osluškivanje događaja
+        ChromePlugin-->>DOM: Osluškivanje događaja
+        ChromePlugin-->>ChromePlugin: Кеširanje događaja
         ChromePlugin->>UXServer: Sačuvaj događaje (skup)
         UXServer->>MongoDB: Dodaj događaje na UX entitet
     end
 
-    ChromePlugin->>UXServer: Završi UX entitet
+    User->>DOM: Stopiraj plugin dugme
+    DOM->>ChromePlugin: Stopiraj plugin
+    ChromePlugin->>UXServer: Kompletiraj UX entitet
     UXServer->>MongoDB: Markiraj UX entitet kao završen
     UXServer-->>MongoDB: Pročitaj sve događaje za UX entitet
     UXServer->>UXServer: Kreiraj karakteristični vektor
